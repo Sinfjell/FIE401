@@ -1,4 +1,6 @@
 ### Script of the commands from the video lecture ###
+# Here is notes for the video lecture
+# https://www.notion.so/fjellestad/L3-Simple-regression-9f07794a7b354c238ff86070f144c290?pvs=4 
 
 #----- Effect of class size on teaching outcome -----
 require(dplyr)
