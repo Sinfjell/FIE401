@@ -25,7 +25,7 @@ data$BM <- data$BE / data$MKTV.june.of.current.fiscal.year
 # This is calculated as the percentage change in market capitalization 
 # between the end of the subsequent fiscal year and the end of the current fiscal year
 data$ReturnNextFiscalYear <- ((data$MKTV.end.of.subsequent.fiscal.year - 
-                                 data$MKTV.end.of.current.fiscal.year) / data$MKTV.end.of.current.fiscal.year) * 100
+                                 data$MKTV.end.of.current.fiscal.year) / data$MKTV.end.of.current.fiscal.year)
 
 # Task 3: Prepare Variables for Analysis ----------------------------------------
 
@@ -63,3 +63,5 @@ summary(model2)
 
 # Use the stargazer package to create a well-formatted table that combines both models
 stargazer(model1, model2, type = "text", title = "Regression Results", align = TRUE)
+
+# change 1646
